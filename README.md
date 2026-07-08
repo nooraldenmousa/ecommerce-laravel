@@ -29,9 +29,10 @@ A full-stack web application for managing a multi-branch e-commerce business wit
 
 ## Setup
 ```bash
-git clone https://github.com/nooraldemmousa121-cmd/ecommerce-laravel.git
+git clone https://github.com/nooraldenmousa/ecommerce-laravel.git
 cd ecommerce-laravel
 composer install
+# Requires PHP SQL Server drivers (sqlsrv, pdo_sqlsrv) enabled in php.ini
 cp .env.example .env
 php artisan key:generate
 ```
